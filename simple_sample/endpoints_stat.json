@@ -1,0 +1,66 @@
+{
+    "train-buy": {
+        "2023-10-15 14:00:00": {
+            "calls": 100,
+            "success_rate": 95.0,
+            "error_rate": 5.0,
+            "average_duration": 200.0,
+            "timeout_rate": 2.0
+        },
+        "2023-10-15 14:01:00": {
+            "calls": 120,
+            "success_rate": 93.33,
+            "error_rate": 6.67,
+            "average_duration": 210.5,
+            "timeout_rate": 3.0
+        }
+    },
+    "train-cancel": {
+        "2023-10-15 14:00:00": {
+            "calls": 90,
+            "success_rate": 97.78,
+            "error_rate": 2.22,
+            "average_duration": 180.0,
+            "timeout_rate": 1.11
+        },
+        "2023-10-15 14:01:00": {
+            "calls": 110,
+            "success_rate": 96.36,
+            "error_rate": 3.64,
+            "average_duration": 190.0,
+            "timeout_rate": 2.0
+        }
+    },
+    "food-buy": {
+        "2023-10-15 14:00:00": {
+            "calls": 80,
+            "success_rate": 0,
+            "error_rate": 100,
+            "average_duration": 22220.0,
+            "timeout_rate": 4.0
+        },
+        "2023-10-15 14:01:00": {
+            "calls": 95,
+            "success_rate": 94.74,
+            "error_rate": 5.26,
+            "average_duration": 215.5,
+            "timeout_rate": 3.16
+        }
+    },
+    "food-cancel": {
+        "2023-10-15 14:00:00": {
+            "calls": 70,
+            "success_rate": 98.57,
+            "error_rate": 1.43,
+            "average_duration": 250.0,
+            "timeout_rate": 0.0
+        },
+        "2023-10-15 14:01:00": {
+            "calls": 85,
+            "success_rate": 97.65,
+            "error_rate": 2.35,
+            "average_duration": 245.0,
+            "timeout_rate": 1.18
+        }
+    }
+}
