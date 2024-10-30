@@ -81,6 +81,7 @@ export OPENAI_API_KEY="sk-xxx"
 ```
 python main/main.py
 ```
+We have provided a sample data file saved in the **simple_sample** folder so that you can process your data into a similar format to enjoy the mABC framework!
 
 ### Driven by Other Version
 
