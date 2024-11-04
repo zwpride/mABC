@@ -3,7 +3,8 @@
 </div>
 
 ## Notice
-Attention! We have provided a sample data file saved in the **simple_sample** folder so that you can process your data into a similar format to enjoy **mABC**!
+Attention! We have provided a sample data file saved in the `simple_sample` folder so that you can process your data into a similar format to enjoy **mABC**!
+
 We will release more data in this repository as soon as possible. Here is init version code and wait for our data to be updated after passing policy review. 
 
 ## Abstract
@@ -80,7 +81,7 @@ export OPENAI_API_KEY="sk-xxx"
 python main/main.py
 ```
 
-### Driven by Other Version
+### Driven by Alternative LLM Version
 
 Try to replace `/Users/knediny/Desktop/mABC/utils/llm.py`.
 
