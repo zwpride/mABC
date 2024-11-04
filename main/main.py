@@ -10,7 +10,7 @@ if __name__ == "__main__":
     # T = "2024-01-09 09:00:00"
     # ENDPOINT = "ts-travel-plan-service-/api/v1/routeplanservice/routePlan/quickestRoute"
     i = 0
-    with(open("data/label/label.json", "r")) as f:
+    with(open("../simple_sample/label.json", "r")) as f:
         data = json.load(f)
     for t, v in data.items():
         for endpoint, path in v.items():
