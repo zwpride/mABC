@@ -83,7 +83,7 @@ python main/main.py
 
 ### Driven by Alternative LLM Version
 
-Try to replace `/Users/knediny/Desktop/mABC/utils/llm.py`.
+Try to replace `utils/llm.py`.
 
 
 
