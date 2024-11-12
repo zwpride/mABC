@@ -91,10 +91,29 @@ Try to replace `utils/llm.py`.
 Feel free to cite us if you like mABC, and you can contact me by zwpride@buaa.edu.cn.
 
 ```
-@article{zhang2024mabc,
-  title={mABC: multi-Agent Blockchain-Inspired Collaboration for root cause analysis in micro-services architecture},
-  author={Zhang, Wei and Guo, Hongcheng and Yang, Jian and Zhang, Yi and Yan, Chaoran and Tian, Zhoujin and Ji, Hangyuan and Li, Zhoujun and Li, Tongliang and Zheng, Tieqiao and others},
-  journal={arXiv preprint arXiv:2404.12135},
-  year={2024}
+@inproceedings{zhang-etal-2024-mabc,
+    title = "m{ABC}: Multi-Agent Blockchain-inspired Collaboration for Root Cause Analysis in Micro-Services Architecture",
+    author = "Zhang, Wei  and
+      Guo, Hongcheng  and
+      Yang, Jian  and
+      Tian, Zhoujin  and
+      Zhang, Yi  and
+      Chaoran, Yan  and
+      Li, Zhoujun  and
+      Li, Tongliang  and
+      Shi, Xu  and
+      Zheng, Liangfan  and
+      Zhang, Bo",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.232",
+    pages = "4017--4033",
+    abstract = "Root cause analysis (RCA) in Micro-services architecture (MSA) with escalating complexity encounters complex challenges in maintaining system stability and efficiency due to fault propagation and circular dependencies among nodes. Diverse root cause analysis faults require multi-agents with diverse expertise. To mitigate the hallucination problem of large language models (LLMs), we design blockchain-inspired voting to ensure the reliability of the analysis by using a decentralized decision-making process. To avoid non-terminating loops led by common circular dependency in MSA, we objectively limit steps and standardize task processing through Agent Workflow. We propose a pioneering framework, multi-Agent Blockchain-inspired Collaboration for root cause analysis in micro-services architecture (mABC), where multiple agents based on the powerful LLMs follow Agent Workflow and collaborate in blockchain-inspired voting. Specifically, seven specialized agents derived from Agent Workflow each provide valuable insights towards root cause analysis based on their expertise and the intrinsic software knowledge of LLMs collaborating within a decentralized chain. Our experiments on the AIOps challenge dataset and a newly created Train-Ticket dataset demonstrate superior performance in identifying root causes and generating effective resolutions. The ablation study further highlights Agent Workflow, multi-agent, and blockchain-inspired voting is crucial for achieving optimal performance. mABC offers a comprehensive automated root cause analysis and resolution in micro-services architecture and significantly improves the IT Operation domain.",
 }
 ```
